@@ -1,0 +1,45 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    mime-types (3.1)
+      mime-types-data (~> 3.2015)
+    mime-types-data (3.2016.0521)
+    mini_portile2 (2.1.0)
+    moneta (0.8.0)
+    nokogiri (1.6.8)
+      mini_portile2 (~> 2.1.0)
+      pkg-config (~> 1.1.7)
+    pkg-config (1.1.7)
+    puma (3.6.0)
+    rack (1.6.4)
+    rack-test (0.6.3)
+      rack (>= 1.0)
+    racksh (1.0.0)
+      rack (>= 1.0)
+      rack-test (>= 0.5)
+    rest-client (1.6.7)
+      mime-types (>= 1.16)
+    roda (2.17.0)
+      rack
+    sass (3.4.22)
+    shotgun (0.9.1)
+      rack (>= 1.0)
+    tilt (2.0.5)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  moneta
+  nokogiri
+  puma
+  rack (~> 1.6)
+  racksh
+  rest-client
+  roda
+  sass
+  shotgun
+  tilt
+
+BUNDLED WITH
+   1.12.5
