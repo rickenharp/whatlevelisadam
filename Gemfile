@@ -9,9 +9,12 @@ gem 'rack', '~> 1.6'
 gem 'tilt'
 gem 'sass'
 gem 'moneta'
-gem 'puma'
+gem 'unicorn'
 
 group :development do
   gem 'shotgun'
   gem 'racksh'
+  gem 'capistrano'
+  gem 'capistrano-bundler'
+  gem 'capistrano-rbenv'
 end
