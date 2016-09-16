@@ -3,3 +3,4 @@ public/assets
 spec/examples.txt
 /coverage/
 /.bundle/
+/store/

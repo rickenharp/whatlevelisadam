@@ -10,6 +10,7 @@ gem 'tilt'
 gem 'sass'
 gem 'moneta'
 gem 'unicorn'
+gem 'multi_json'
 
 group :development do
   gem 'shotgun'

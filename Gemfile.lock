@@ -30,6 +30,7 @@ GEM
     mime-types-data (3.2016.0521)
     mini_portile2 (2.1.0)
     moneta (0.8.0)
+    multi_json (1.12.1)
     net-scp (1.2.1)
       net-ssh (>= 2.6.5)
     net-ssh (3.1.1)
@@ -89,6 +90,7 @@ DEPENDENCIES
   capistrano-rbenv
   capybara
   moneta
+  multi_json
   nokogiri
   rack (~> 1.6)
   racksh
