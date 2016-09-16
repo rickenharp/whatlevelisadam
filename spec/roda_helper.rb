@@ -10,6 +10,7 @@ require 'pathname'
 RSpec.configure do |config|
   include Rack::Test::Methods
   config.before(:each) do
+    ENV['NO_LOGGING'] = '1'
     WebMock.disable_net_connect!(allow_localhost: true)
   end
 

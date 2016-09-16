@@ -9,7 +9,12 @@
     <div class="content">
       <h1>Adam's current level:</h1>
       <div class="level">
-        <a href="http://us.battle.net/wow/en/character/wyrmrest-accord/Skinnyghost/simple"><%= @level %></a>
+        <a href="http://us.battle.net/wow/en/character/wyrmrest-accord/Skinnyghost/simple">
+          <%= @character.level %>
+        </a>
+      </div>
+      <div class="ilevel">
+        Item level: <%= @character.item_level %>
       </div>
     </div>
   </body>
