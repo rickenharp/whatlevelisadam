@@ -1,6 +1,8 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    addressable (2.4.0)
+    awesome_print (1.7.0)
     capistrano (3.4.0)
       i18n
       rake (>= 10.0.0)
@@ -11,6 +13,16 @@ GEM
     capistrano-rbenv (2.0.4)
       capistrano (~> 3.1)
       sshkit (~> 1.3)
+    capybara (2.8.1)
+      addressable
+      mime-types (>= 1.16)
+      nokogiri (>= 1.3.3)
+      rack (>= 1.0.0)
+      rack-test (>= 0.5.4)
+      xpath (~> 2.0)
+    crack (0.4.0)
+      safe_yaml (~> 0.9.0)
+    diff-lcs (1.2.5)
     i18n (0.7.0)
     kgio (2.10.0)
     mime-types (3.1)
@@ -37,6 +49,20 @@ GEM
       mime-types (>= 1.16)
     roda (2.17.0)
       rack
+    rspec (3.5.0)
+      rspec-core (~> 3.5.0)
+      rspec-expectations (~> 3.5.0)
+      rspec-mocks (~> 3.5.0)
+    rspec-core (3.5.3)
+      rspec-support (~> 3.5.0)
+    rspec-expectations (3.5.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.5.0)
+    rspec-mocks (3.5.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.5.0)
+    rspec-support (3.5.0)
+    safe_yaml (0.9.3)
     sass (3.4.22)
     shotgun (0.9.1)
       rack (>= 1.0)
@@ -47,24 +73,33 @@ GEM
     unicorn (5.1.0)
       kgio (~> 2.6)
       raindrops (~> 0.7)
+    webmock (1.11.0)
+      addressable (>= 2.2.7)
+      crack (>= 0.3.2)
+    xpath (2.0.0)
+      nokogiri (~> 1.3)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  awesome_print
   capistrano
   capistrano-bundler
   capistrano-rbenv
+  capybara
   moneta
   nokogiri
   rack (~> 1.6)
   racksh
   rest-client
   roda
+  rspec
   sass
   shotgun
   tilt
   unicorn
+  webmock
 
 BUNDLED WITH
    1.12.5

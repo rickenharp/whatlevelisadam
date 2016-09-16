@@ -18,3 +18,13 @@ group :development do
   gem 'capistrano-bundler'
   gem 'capistrano-rbenv'
 end
+
+group :test do
+  gem 'rspec'
+  gem 'capybara'
+  gem 'webmock'
+end
+
+group :test, :development do
+  gem 'awesome_print'
+end
