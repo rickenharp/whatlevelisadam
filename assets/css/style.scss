@@ -1,7 +1,14 @@
+@function google-font($n) {
+  @return 'https://fonts.googleapis.com/css?family=' + $n;
+}
+
+$font-url: google-font('Special+Elite');
+@import url($font-url);
 $bgcolor: #808080;
 
 body {
   background-color: $bgcolor;
+  font-family: 'Special Elite';
 
   .content {
     text-align: center;
