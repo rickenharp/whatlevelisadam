@@ -4,7 +4,6 @@ require './models'
 require 'nokogiri'
 require 'rest-client'
 require 'moneta'
-require 'awesome_print'
 
 class Whatlevelisadam < Roda
   plugin :render
